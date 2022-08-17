@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 0;
+}
+
+.nav {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 0;
+    margin-top: 0px;
+    margin-left: 50px;
+    color: white;
+}
+
+.link a {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.link a:hover {
+    color: rgba(255, 255, 255, .75);
+}
+
+header {
+    background-color: rgb(33, 37, 41);
+    position: fixed;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+header h2 {
+    margin: 0;
+    margin-top: 0px;
+    margin-left: 50px;
+    color: white;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+header li {
+    color: white;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+section .container {
+    padding: 100px;
+}
+
+section h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+section p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+#wellcome {
+    padding-bottom: 120px;
+    padding-top: 120px;
+    color: white;
+    text-align: center;
+    background-color: rgb(13, 110, 253);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+#wellcome h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+#wellcome a {
+    display: inline-block;
+
+    padding: 0.5rem 1rem;
+    
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-decoration: none;
+
+    border: none;
+    border-radius: 0.3rem;
+
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+#about ul {
+    text-align: left;
+}
+
+#offers {
+    background-color: rgb(248, 249, 250);
+}
+
+footer {
+    padding: 40px;
+    font-size: 1.1em;
+    text-align: center;
+    color: white;
+    background-color: rgb(37, 37, 41);
+}
